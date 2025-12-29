@@ -159,7 +159,7 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 39.99,
         description: "Lightweight perfet for trip or casual wear---Long sleeve with hooded",
         category: "women's clothing",
-        image: "https://images.pexels.com/photos/1755455/pexels-photo-1755455.jpeg?auto=compress&cs=tinysrgb&w=800", // Rain Jacket
+        image: "https://images.pexels.com/photos/1771336/pexels-photo-1771336.jpeg?auto=compress&cs=tinysrgb&w=800", // Replaced with nice yellow raincoat for visibility
         rating: { rate: 3.8, count: 679 }
     },
     {
