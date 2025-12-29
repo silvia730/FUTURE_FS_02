@@ -42,14 +42,14 @@ const FALLBACK_PRODUCTS: Product[] = [
         image: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=800", // Men's Shirt
         rating: { rate: 2.1, count: 430 }
     },
-    // Jewelery
+    // Jewelery (Updated to ensure jewelry images)
     {
         id: 5,
         title: "John Hardy Women's Legends Naga Gold & Silver Dragon",
         price: 695,
         description: "From our Legends Collection, the Naga was inspired by the mythical water dragon.",
         category: "jewelery",
-        image: "https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&w=800", // Jewelry
+        image: "https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&w=800", // Gold Jewelry
         rating: { rate: 4.6, count: 400 }
     },
     {
@@ -58,7 +58,7 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 168,
         description: "Satisfaction Guaranteed. Return or exchange any order within 30 days.",
         category: "jewelery",
-        image: "https://images.pexels.com/photos/2735970/pexels-photo-2735970.jpeg?auto=compress&cs=tinysrgb&w=800", // Ring
+        image: "https://images.pexels.com/photos/1458867/pexels-photo-1458867.jpeg?auto=compress&cs=tinysrgb&w=800", // Ring
         rating: { rate: 3.9, count: 70 }
     },
     {
@@ -76,10 +76,10 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 10.99,
         description: "Rose Gold Plated Double Flared Tunnel Plug Earrings.",
         category: "jewelery",
-        image: "https://images.pexels.com/photos/1413420/pexels-photo-1413420.jpeg?auto=compress&cs=tinysrgb&w=800", // Earring
+        image: "https://images.pexels.com/photos/1413420/pexels-photo-1413420.jpeg?auto=compress&cs=tinysrgb&w=800", // Earrings
         rating: { rate: 1.9, count: 100 }
     },
-    // Electronics
+    // Electronics (Updated to ensure electronics images)
     {
         id: 9,
         title: "WD 2TB Elements Portable External Hard Drive",
@@ -95,7 +95,7 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 109,
         description: "Easy upgrade for faster boot up, shutdown, application load and response",
         category: "electronics",
-        image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800", // SSD/Electronics
+        image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800", // SSD
         rating: { rate: 2.9, count: 470 }
     },
     {
@@ -104,7 +104,7 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 109,
         description: "3D NAND flash are applied to deliver high transfer speeds",
         category: "electronics",
-        image: "https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg?auto=compress&cs=tinysrgb&w=800", // Electronics
+        image: "https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg?auto=compress&cs=tinysrgb&w=800", // Motherboard/Electronics
         rating: { rate: 4.8, count: 319 }
     },
     {
@@ -113,7 +113,7 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 114,
         description: "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup",
         category: "electronics",
-        image: "https://images.pexels.com/photos/1637859/pexels-photo-1637859.jpeg?auto=compress&cs=tinysrgb&w=800", // Gaming
+        image: "https://images.pexels.com/photos/1637859/pexels-photo-1637859.jpeg?auto=compress&cs=tinysrgb&w=800", // Gaming Controller
         rating: { rate: 4.8, count: 400 }
     },
     {
@@ -131,17 +131,17 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 999.99,
         description: "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR",
         category: "electronics",
-        image: "https://images.pexels.com/photos/7043216/pexels-photo-7043216.jpeg?auto=compress&cs=tinysrgb&w=800", // Monitor
+        image: "https://images.pexels.com/photos/7043216/pexels-photo-7043216.jpeg?auto=compress&cs=tinysrgb&w=800", // Workstation Setup
         rating: { rate: 2.2, count: 140 }
     },
-    // Women's Clothing
+    // Women's Clothing (Updated to ensure women's clothing images)
     {
         id: 15,
         title: "BIYLACLESEN Women's 3-in-1 Snowboard Jacket",
         price: 56.99,
         description: "Note:The Jackets is US standard size, Please choose size as your usual wear",
         category: "women's clothing",
-        image: "https://images.pexels.com/photos/375880/pexels-photo-375880.jpeg?auto=compress&cs=tinysrgb&w=800", // Jacket
+        image: "https://images.pexels.com/photos/375880/pexels-photo-375880.jpeg?auto=compress&cs=tinysrgb&w=800", // Woman Winter Jacket
         rating: { rate: 2.6, count: 235 }
     },
     {
@@ -150,7 +150,7 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 29.95,
         description: "100% POLYURETHANE(shell) 100% POLYESTER(lining)",
         category: "women's clothing",
-        image: "https://images.pexels.com/photos/1192601/pexels-photo-1192601.jpeg?auto=compress&cs=tinysrgb&w=800", // Jacket
+        image: "https://images.pexels.com/photos/1192601/pexels-photo-1192601.jpeg?auto=compress&cs=tinysrgb&w=800", // Woman Leather Jacket
         rating: { rate: 2.9, count: 340 }
     },
     {
@@ -159,7 +159,7 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 39.99,
         description: "Lightweight perfet for trip or casual wear---Long sleeve with hooded",
         category: "women's clothing",
-        image: "https://images.pexels.com/photos/1755455/pexels-photo-1755455.jpeg?auto=compress&cs=tinysrgb&w=800", // Jacket
+        image: "https://images.pexels.com/photos/1755455/pexels-photo-1755455.jpeg?auto=compress&cs=tinysrgb&w=800", // Rain Jacket
         rating: { rate: 3.8, count: 679 }
     },
     {
@@ -168,7 +168,7 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 9.85,
         description: "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach",
         category: "women's clothing",
-        image: "https://images.pexels.com/photos/6311687/pexels-photo-6311687.jpeg?auto=compress&cs=tinysrgb&w=800", // Top
+        image: "https://images.pexels.com/photos/6311687/pexels-photo-6311687.jpeg?auto=compress&cs=tinysrgb&w=800", // Woman Top
         rating: { rate: 4.7, count: 130 }
     },
     {
@@ -177,7 +177,7 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 7.95,
         description: "100% Polyester, Machine wash, 100% cationic polyester interlock",
         category: "women's clothing",
-        image: "https://images.pexels.com/photos/1382734/pexels-photo-1382734.jpeg?auto=compress&cs=tinysrgb&w=800", // Top
+        image: "https://images.pexels.com/photos/1382734/pexels-photo-1382734.jpeg?auto=compress&cs=tinysrgb&w=800", // Woman Sport Top
         rating: { rate: 4.5, count: 146 }
     },
     {
@@ -186,7 +186,7 @@ const FALLBACK_PRODUCTS: Product[] = [
         price: 12.99,
         description: "95%Cotton,5%Spandex, Features: Casual, Short Sleeve",
         category: "women's clothing",
-        image: "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&w=800", // T-shirt
+        image: "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&w=800", // Woman T-shirt
         rating: { rate: 3.6, count: 145 }
     }
 ];
